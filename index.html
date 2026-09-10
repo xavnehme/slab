@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SLAB. Privacy and support</title>
+<meta name="description" content="SLAB is an iPhone app that shields your chosen apps until you tap a physical NFC tag. Nothing leaves your phone. Privacy policy and support.">
+<style>
+  :root { --ink: #111114; --rule: rgba(17,17,20,0.14); --muted: rgba(17,17,20,0.6); --paper: #fbfbfa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #ebeae7; --rule: rgba(235,234,231,0.16); --muted: rgba(235,234,231,0.6); --paper: #101012; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.55 -apple-system, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 28px 96px; }
+  .mark { font-weight: 800; letter-spacing: 0.3em; font-size: 15px; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 16px 0 48px; }
+  h1 { font-size: 34px; line-height: 1.15; font-weight: 700; margin: 0 0 12px; letter-spacing: -0.01em; }
+  h2 { font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; color: var(--muted); margin: 56px 0 14px; }
+  p { margin: 0 0 16px; }
+  .lede { font-size: 19px; color: var(--muted); }
+  .meta { font: 13px/1.5 ui-monospace, "SF Mono", Menlo, monospace; color: var(--muted); margin-bottom: 8px; }
+  ul { padding-left: 20px; margin: 0 0 16px; }
+  li { margin-bottom: 8px; }
+  a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  dl { margin: 0; }
+  dt { font-weight: 600; margin-top: 18px; }
+  dd { margin: 4px 0 0; color: var(--muted); }
+  footer { margin-top: 72px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">SLAB</div>
+  <hr>
+  <div class="meta">Privacy policy and support. Last updated 10 September 2026.</div>
+  <h1>A physical key for your attention.</h1>
+  <p class="lede">SLAB shields the apps you choose until you tap your iPhone on a physical NFC tag. Nothing leaves your phone. This page says exactly what the app touches, and how to reach us.</p>
+
+  <h2>What SLAB does</h2>
+  <p>You pick apps, categories, or websites. You tap Brick. Those apps are shut behind Apple's Screen Time shield until you scan the tag you paired during setup, or spend one of five lifetime emergency unlocks. Leave the tag in another room and the apps stay shut. Distance is the feature.</p>
+
+  <h2>Privacy policy</h2>
+  <p>SLAB collects no data. There is no account, no sign in, no analytics, no advertising, no crash reporting service, and no third party code in the app. The app makes no network requests.</p>
+  <dl>
+    <dt>Screen Time</dt>
+    <dd>SLAB asks for individual Screen Time authorization so it can shield the apps you choose. Apple's picker hands the app opaque tokens, not app names. SLAB never learns which apps you selected, and cannot see how you use your phone. Tokens stay on your device.</dd>
+    <dt>NFC tags</dt>
+    <dd>When you pair a tag, SLAB stores that tag's hardware identifier on your device so it can recognise the same tag later. It reads nothing else from the tag and writes nothing to it.</dd>
+    <dt>On-device storage</dt>
+    <dd>Your presets, paired tags, emergency unlock count, and bricked time history live in the app's own storage on your iPhone, shared only with the SLAB widget and shield screen on the same device. Deleting the app deletes all of it.</dd>
+    <dt>Shortcuts and Siri</dt>
+    <dd>The Brick action is available to Shortcuts so an NFC automation can shield your apps. Running it shares nothing with SLAB beyond the request itself.</dd>
+    <dt>Children</dt>
+    <dd>SLAB is a tool for adults managing their own attention. It uses individual authorization only, never parental or child controls, and is not directed at children.</dd>
+    <dt>Changes</dt>
+    <dd>If this policy changes, the date at the top changes with it. Since SLAB collects nothing, we do not expect it to.</dd>
+  </dl>
+
+  <h2>Honest limitations</h2>
+  <p>Deleting SLAB or revoking Screen Time authorization removes the shield. This is friction, not a jail. The emergency unlock counter never resets, on purpose.</p>
+
+  <h2>Support</h2>
+  <p>Questions, problems, or a tag that will not pair: email the address listed on the App Store page. Include your iPhone model and iOS version and we will reply within a few days.</p>
+  <p>Any ISO 14443 NFC tag works as a slab: a sticker, a transit card, a hotel key. NTAG213 and NTAG215 stickers are cheap and reliable.</p>
+
+  <footer>SLAB is made in Sydney, Australia. Copyright 2026.</footer>
+</main>
+</body>
+</html>
