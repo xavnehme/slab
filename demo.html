@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>SLAB demo for App Review</title>
+<style>
+  body { margin: 0; background: #101012; color: #ebeae7; font: 16px/1.5 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+  .mark { font-weight: 800; letter-spacing: 0.3em; font-size: 14px; }
+  hr { border: 0; border-top: 1px solid rgba(235,234,231,0.16); margin: 14px 0 32px; }
+  h1 { font-size: 26px; margin: 0 0 8px; }
+  p { color: rgba(235,234,231,0.7); }
+  video { width: 100%; max-width: 420px; display: block; margin: 24px 0; background: #000; }
+  ol { color: rgba(235,234,231,0.7); padding-left: 20px; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">SLAB</div>
+  <hr>
+  <h1>Demo video for App Review</h1>
+  <p>Submission b7aaf10b-9175-4cf6-950f-3b407cd5ef70. Build 1.2. One video, 93 seconds, no audio.</p>
+  <video controls playsinline preload="metadata" src="demo.mp4"></video>
+  <p><a href="demo.mp4">Direct link to the MP4</a></p>
+  <ol>
+    <li><strong>Part 1, camera.</strong> A physical iPhone 15 Pro and the NFC tag on a desk. The tag is paired through the system NFC sheet, apps are bricked, a blocked app shows the shield, and the tag is scanned again to unbrick.</li>
+    <li><strong>Part 2, screen recording.</strong> The same flow at readable size: pair a tag, create a preset, pick apps, brick, shield, scan to unbrick.</li>
+  </ol>
+  <p>Pairing in the video uses "Pair another slab" in Settings. It is the same NFCTagReaderSession flow as onboarding step 04 on a fresh install. Reviewers without an NFC tag can enter the code APPREVIEW on that onboarding step to pair a virtual key.</p>
+</main>
+</body>
+</html>
