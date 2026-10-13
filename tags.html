@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where to get a slab</title>
+<meta name="description" content="Which NFC tags work with SLAB, what you probably already own, and what to buy if you need one.">
+<style>
+  :root { --ink: #111114; --rule: rgba(17,17,20,0.14); --muted: rgba(17,17,20,0.6); --paper: #fbfbfa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #ebeae7; --rule: rgba(235,234,231,0.16); --muted: rgba(235,234,231,0.6); --paper: #101012; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.55 -apple-system, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 28px 96px; }
+  .mark { font-weight: 800; letter-spacing: 0.3em; font-size: 15px; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 16px 0 48px; }
+  h1 { font-size: 34px; line-height: 1.15; font-weight: 700; margin: 0 0 12px; letter-spacing: -0.01em; }
+  h2 { font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; color: var(--muted); margin: 56px 0 14px; }
+  p { margin: 0 0 16px; }
+  .lede { font-size: 19px; color: var(--muted); }
+  .meta { font: 13px/1.5 ui-monospace, "SF Mono", Menlo, monospace; color: var(--muted); margin-bottom: 8px; }
+  ul { padding-left: 20px; margin: 0 0 16px; }
+  li { margin-bottom: 10px; }
+  a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  dl { margin: 0; }
+  dt { font-weight: 600; margin-top: 18px; }
+  dd { margin: 4px 0 0; color: var(--muted); }
+  .buy { border-top: 1px solid var(--rule); padding: 18px 0 2px; display: flex; gap: 16px; align-items: baseline; flex-wrap: wrap; }
+  .buy strong { font-weight: 600; min-width: 140px; }
+  .buy span { color: var(--muted); font-size: 15px; }
+  footer { margin-top: 72px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">SLAB</div>
+  <hr>
+  <div class="meta">Last updated 13 October 2026.</div>
+  <h1>Where to get a slab.</h1>
+  <p class="lede">A slab is just an NFC tag that SLAB has learned to recognise. Almost any tag works, and there is a good chance one is already in your pocket.</p>
+
+  <h2>Try what you own first</h2>
+  <p>Before buying anything, open SLAB and try pairing one of these. If your phone reads it, it works, and you are done.</p>
+  <ul>
+    <li>A transit card. An Opal, Myki, Oyster or similar.</li>
+    <li>A hotel room key you forgot to hand back.</li>
+    <li>An office or gym access card.</li>
+    <li>A library card, if it is the tap kind.</li>
+  </ul>
+  <p>One catch worth knowing. A card you use every day makes a poor slab, because it travels with you, and the whole point is leaving the slab behind. Treat a card as a way to test the app, then get something you can abandon in another room.</p>
+
+  <h2>What to buy</h2>
+  <p>Look for <strong>NTAG213</strong> stickers. They are the cheapest tag that does the job, usually sold in packs of ten or more for the price of a coffee. NTAG215 and NTAG216 also work and hold more data you will never use.</p>
+  <dl>
+    <dt>Size</dt>
+    <dd>25mm round stickers are the easy default. Larger reads slightly more reliably, smaller hides better.</dd>
+    <dt>On-metal tags</dt>
+    <dd>If you want to stick the tag to something metal, buy the version sold as "anti-metal" or "on-metal". A plain sticker on metal often will not read at all.</dd>
+    <dt>What to avoid</dt>
+    <dd>Anything described only as "NFC compatible" without naming the chip. Also skip NTAG203 and Mifare Classic, which are older and less reliable with iPhones.</dd>
+  </dl>
+
+  <h2>Where</h2>
+  <p>These are plain searches rather than specific products, because stock turns over constantly. Any seller with a sensible rating will do; the chips are all the same.</p>
+  <div class="buy"><strong>Amazon AU</strong> <a href="https://www.amazon.com.au/s?k=NTAG213+NFC+stickers">Search NTAG213 stickers</a> <span>Usually $12 to $25 for a pack, fastest delivery.</span></div>
+  <div class="buy"><strong>eBay AU</strong> <a href="https://www.ebay.com.au/sch/i.html?_nkw=NTAG213+NFC+sticker">Search NTAG213 stickers</a> <span>Often cheapest, slower if shipped from overseas.</span></div>
+  <div class="buy"><strong>AliExpress</strong> <a href="https://www.aliexpress.com/wholesale?SearchText=NTAG213%20NFC%20sticker">Search NTAG213 stickers</a> <span>Cheapest per tag, two to four weeks.</span></div>
+  <!-- Affiliate note: these are plain links today. If SLAB ever joins an
+       affiliate programme, the tags go on these links and the required
+       disclosure goes directly below this block, not buried in the footer.
+       Do not add a disclosure line before there is a relationship to
+       disclose, and do not make this page a bare redirect: Amazon pays
+       nothing on pass-through links. -->
+
+  <h2>Making it a slab</h2>
+  <p>The tag is the boring part. What matters is what you stick it to and where that thing lives.</p>
+  <ul>
+    <li>Pick an object with some weight to it. A coaster, a stone, a block of wood, a book you like.</li>
+    <li>Put it somewhere that costs you something to reach. Another room, a drawer downstairs, the car.</li>
+    <li>Pair a second tag and leave it at work, or with someone you trust, so you are never genuinely stuck.</li>
+  </ul>
+  <p>SLAB gives you five emergency unlocks for life, so a lost slab is an inconvenience rather than a disaster. They never reset, on purpose.</p>
+
+  <footer>
+    <a href="./">Privacy and support</a> · SLAB is made in Sydney, Australia. Copyright 2026.
+  </footer>
+</main>
+</body>
+</html>
